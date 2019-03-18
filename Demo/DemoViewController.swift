@@ -28,7 +28,7 @@ class DemoViewController: UIViewController {
     }
 
     @IBAction func showAnimatedProgressHUD(_ sender: AnyObject) {
-        HUD.show(.progress)
+        HUD.show(.customView(view: PKHUDGifLoader()))
 
         // Now some long running task starts...
         delay(2.0) {

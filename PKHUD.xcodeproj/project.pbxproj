@@ -14,8 +14,7 @@
 		640011571C5B6C080013F32B /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640011551C5B6C080013F32B /* HUD.swift */; };
 		B1C8E414223FBBB600D6BECB /* GifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8E413223FBBB600D6BECB /* GifLoader.swift */; };
 		B1C8E41C223FC55E00D6BECB /* PKHUDGifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C8E41B223FC55E00D6BECB /* PKHUDGifLoader.swift */; };
-		B1C8E41D223FC5D200D6BECB /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = B1C8E418223FC47A00D6BECB /* loading.gif */; };
-		B1C8E41E223FC60000D6BECB /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = B1C8E418223FC47A00D6BECB /* loading.gif */; };
+		B1C8E41F223FCDDB00D6BECB /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = B1C8E418223FC47A00D6BECB /* loading.gif */; };
 		F908BEC01BB849290015E5A8 /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908BEBF1BB849290015E5A8 /* PKHUDSuccessView.swift */; };
 		F908BEC31BB84D0B0015E5A8 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908BEC21BB84D0B0015E5A8 /* PKHUDAnimating.swift */; };
 		F908BEC51BB852C60015E5A8 /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F908BEC41BB852C60015E5A8 /* PKHUDErrorView.swift */; };
@@ -207,7 +206,6 @@
 		F99631FE19514FAC001F73CA /* PKHUD Demo */ = {
 			isa = PBXGroup;
 			children = (
-				B1C8E418223FC47A00D6BECB /* loading.gif */,
 				F996320119514FAC001F73CA /* AppDelegate.swift */,
 				F996325819515052001F73CA /* DemoViewController.swift */,
 				F935B1571B2B8088003C3734 /* Storyboard.storyboard */,
@@ -230,6 +228,7 @@
 		F996321F19514FD8001F73CA /* PKHUD */ = {
 			isa = PBXGroup;
 			children = (
+				B1C8E418223FC47A00D6BECB /* loading.gif */,
 				640011551C5B6C080013F32B /* HUD.swift */,
 				F996322219514FD8001F73CA /* PKHUD.h */,
 				F996324819514FEF001F73CA /* PKHUD.swift */,
@@ -391,7 +390,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F935B15A1B2B865A003C3734 /* Launch Screen.storyboard in Resources */,
-				B1C8E41E223FC60000D6BECB /* loading.gif in Resources */,
 				F996320419514FAD001F73CA /* Images.xcassets in Resources */,
 				F935B1581B2B8088003C3734 /* Storyboard.storyboard in Resources */,
 			);
@@ -401,8 +399,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1C8E41F223FCDDB00D6BECB /* loading.gif in Resources */,
 				F996325519514FF3001F73CA /* Images.xcassets in Resources */,
-				B1C8E41D223FC5D200D6BECB /* loading.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
