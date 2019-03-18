@@ -109,14 +109,14 @@ open class PKHUD: NSObject {
         }
     }
 
-    open var effect: UIVisualEffect? {
-        get {
-            return container.frameView.effect
-        }
-        set {
-            container.frameView.effect = newValue
-        }
-    }
+//    open var effect: UIVisualEffect? {
+//        get {
+//            return container.frameView.effect
+//        }
+//        set {
+//            container.frameView.effect = newValue
+//        }
+//    }
 
     open var leadingMargin: CGFloat = 0
 
